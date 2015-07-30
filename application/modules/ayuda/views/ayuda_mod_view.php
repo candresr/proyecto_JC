@@ -1,0 +1,1 @@
+<div class="contHelpMod"><span class="negrita">Módulo de <?=$etiqueta?> </span><br/><br/>Etiqueta del Módulo: <span class="negrita"><?=$etiqueta?></span> <br/> Nombre de la tabla en la base de datos: <span class="negrita"><?=$nom_tabla?></span> <br/><br/> <?=$descripcion?></div>

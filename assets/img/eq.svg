@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="baras" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="115px" height="64px" viewBox="0 0 115 64" style="enable-background:new 0 0 115 64;" xml:space="preserve">
+	 <script type="text/ecmascript" xlink:href="js/smil.user.js"/>
+<rect id="bar1" y="62" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b1" attributeType="xml" attributeName="opacity" from="0" to="1" begin="0s; b12a.end" dur="0.01s" fill="freeze" />
+  <animate id="b12a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b11a.end" dur="0.01s" fill="freeze" />
+</rect>
+<rect id="bar2" y="57" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b2" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b1.end" dur="0.03s " fill="freeze" />
+  <animate id="b11a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b10a.end" dur="0.05s" fill="freeze" />
+</rect>
+<rect id="bar3" y="52" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b3" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b2.end" dur="0.04s" fill="freeze" />
+  <animate id="b10a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b9a.end" dur="0.01s" fill="freeze" />
+</rect>
+<rect id="bar4" y="48" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b4" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b3.end" dur="0.01s" fill="freeze" />
+  <animate id="b9a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b8a.end" dur="0.05s" fill="freeze" />
+</rect>
+<rect id="bar5" y="43" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b5" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b4.end" dur="0.01s" fill="freeze" />
+  <animate id="b8a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b7a.end" dur="0.08s" fill="freeze" />
+</rect>
+<rect id="bar6" y="38" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b6" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b5.end" dur="0.01s" fill="freeze" />
+  <animate id="b7a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b6a.end" dur="0.03s" fill="freeze" />
+</rect>
+<rect id="bar7" y="33" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b7" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b6.end" dur="0.01s" fill="freeze" />
+  <animate id="b6a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b5a.end" dur="0.09s" fill="freeze" />
+</rect>
+<rect id="bar8" y="29" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b8" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b7.end" dur="0.01s" fill="freeze" />
+  <animate id="b5a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b4a.end" dur="0.05s" fill="freeze" />
+</rect>
+<rect id="bar9" y="24" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b9" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b8.end" dur="0.09s" fill="freeze" />
+  <animate id="b4a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b3a.end" dur="0.05s" fill="freeze" />
+</rect>
+<rect id="bar10" y="19" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b10" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b9.end" dur="0.01s" fill="freeze" />
+  <animate id="b3a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b2a.end" dur="0.08s" fill="freeze" />
+</rect>
+<rect id="bar11" y="5" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b11" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b10.end" dur="0.05s" fill="freeze" />
+  <animate id="b2a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b1a.end" dur="0.01s" fill="freeze" />
+</rect>
+<rect id="bar12" style="fill:#FFFF00;" width="115" height="2" opacity="0">
+  <animate id="b12" attributeType="xml" attributeName="opacity" from="0" to="1" begin="b11.end" dur="0.06s" fill="freeze" />
+  <animate id="b1a" attributeType="xml" attributeName="opacity" from="1" to="0" begin="b12.end" dur="0.05s" fill="freeze" />
+</rect>
+</svg>

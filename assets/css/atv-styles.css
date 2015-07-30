@@ -1,0 +1,351 @@
+/* vars */
+body { background-color: #332d2e; margin-top: 10px; }
+
+#top-header { position: relative; }
+
+#logo { float: left; }
+
+#logo-vector { height: 71px; }
+
+#menu { margin-top: 15px; margin-bottom: 5px; }
+
+/* titulos */
+h1 { font-family: "hvlight", sans-serif; color: white; font-size: 1.3em; }
+
+h2 { color: #0cfef6; font-family: "hvtn", sans-serif; font-weight: 100; font-size: 2em; margin-top: 0; margin-bottom: 2px; }
+
+h3 { font-family: "hvbold", sans-serif; color: #a8a5a5; font-weight: 600; font-size: 1em; margin: 0; }
+
+.title-bold { font-family: "hvbold", sans-serif; line-height: 0em; }
+
+.text-read { color: #c2c1c0; }
+
+.altas, h1, h2, h3, .noti-titulo, .nav li a { text-transform: uppercase; }
+
+footer > div { margin: 15px 0; padding-top: 5px; border-top: 3px solid #a8a5a5; }
+
+/*** HOME ***/
+#main-content, #titular { background-color: #f04e23; }
+
+#titular { border-bottom: 4px solid rgba(255, 255, 255, 0); }
+
+#date { text-align: right; padding-right: 20px; }
+
+.noti { padding-top: 5px; padding-bottom: 20px; }
+
+#nueva-temporada { background-color: #07bd94; margin-bottom: 10px; }
+
+#nueva-temporada h1 { margin-top: 16px; }
+
+/* noticias */
+.noti-izq { margin-right: 10px; }
+
+.noti-inf { background-color: #c66542; }
+
+.noti-hora { color: #4fd4ff; text-align: right; font-family: "hvbold", sans-serif; border-bottom: 3px solid #4fd4ff; padding-right: 3px; }
+
+.noti-titulo { padding: 3px; color: white; font-family: "hvbold", sans-serif; font-weight: 600; text-align: right; line-height: 1.1em; }
+
+.noti-eq img { width: 100%; }
+
+.noti-texto { padding-top: 5px; font-family: "hvbold", sans-serif; font-weight: 600; line-height: 1.1em; }
+
+.noti-der img, noti-izq img { cursor: pointer; filter: grayscale(0%); -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); -ms-filter: grayscale(0%); -o-filter: grayscale(0%); }
+
+.noti-der img:hover, noti-izq img:hover { cursor: pointer; filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); }
+
+#acc-titanes, #acc-ola, #acc-sono { margin-bottom: 10px; }
+
+.acc-col-1 { float: left; }
+.acc-col-1 img { height: 80px; }
+
+.acc-col-2 { float: left; margin-left: 10px; width: 70%; padding: 5px 0 0 0; }
+.acc-col-2 p { color: #a8a5a5; line-height: 1em; }
+.acc-col-2 h2 { width: 100%; }
+
+/*** SLIDER ***/
+#slider-main { padding-top: 7px; padding-bottom: 10px; overflow: auto; }
+
+#nt-slider { width: 230px; float: left; }
+
+#nt-slider img { filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); }
+
+#nt-slider img:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); -ms-filter: grayscale(0%); -o-filter: grayscale(0%); }
+
+#nt-slider-prev, #nt-slider-next { width: 21px; height: 50px; float: left; }
+
+#nt-slider-prev { background: url("/avilatv/assets/img/prev.jpg") center top no-repeat; margin-right: 5px; }
+
+#nt-slider-next { background: url("/avilatv/assets/img/next.jpg") center top no-repeat; margin-left: 5px; }
+
+#nt-slider-prev:hover, #nt-slider-next:hover { background-position: center bottom; cursor: pointer; }
+
+/*** NAV ***/
+.navbar { margin: 0; min-height: initial; }
+
+.navbar-collapse { padding: 0; }
+
+.nav li { background-color: black; /*margin-right:5px;*/ }
+.nav li a { color: red; padding: 10px 5px; font-size: .8em; font-family: "hvbold", sans-serif; }
+.nav li.active { background-color: white; }
+
+#toggle-menu { float: right; margin: 15px 0 0 0; }
+
+.navbar-toggle { background-color: black; border-radius: 0; width: 50px; height: 50px; margin-right: 0; }
+.navbar-toggle .icon-bar { display: block; width: 27px; height: 3px; border-radius: 0; background-color: white; }
+
+.navbar-collapse { border-top: none; box-shadow: none; }
+
+/*** LIGHTBOX ***/
+.lb-outerContainer { border-radius: 0; background-color: #000; }
+
+.lb-container { padding: 10px 40px; }
+
+.lightbox .lb-image { border-radius: 0; }
+
+/*** MODAL ***/
+.modal-content { border-radius: 0; border: none; background-color: #000; color: #FFF; box-shadow: none; -webkit-box-shadow: none; }
+
+.modal-header .close { margin-top: -13px; }
+
+.close { color: #FFF; text-shadow: none; opacity: 0.7; }
+
+.close:hover, .close:focus { color: #FFF; opacity: 1; }
+
+/* SOCIAL */
+#social-sm { position: absolute; z-index: 2; top: 50%; right: 80px; }
+
+#social-xs { float: right; margin: 10px 15px 0 0; }
+
+#social-sm .bt-tw, #social-sm .bt-fb, #social-sm .bt-yt { display: block; float: left; background-position: center top; width: 30px; height: 21px; }
+
+#social-xs .bt-tw, #social-xs .bt-fb, #social-xs .bt-yt { display: block; float: left; background-position: center top; width: 30px; height: 21px; }
+
+.bt-tw { background-image: url("/avilatv/assets/img/bt_tw.png"); }
+
+.bt-fb { background-image: url("/avilatv/assets/img/bt_fb.png"); }
+
+.bt-yt { background-image: url("/avilatv/assets/img/bt_yt.png"); margin-left: 4px; }
+
+#social-sm a:hover, #social-xs a:hover { background-position: center bottom; }
+
+#main { padding-top: 15px; padding-bottom: 15px; }
+
+/* Sono Avila */
+body.sono-avila { background: url("/avilatv/assets/img/fondo_sono_avila.jpg") top center repeat-x #332d2e; }
+
+.repro-lista ul { padding: 0; list-style-type: none; }
+
+.repro-lista ul li { min-height: 40px; padding: 5px 35px 5px 5px; border-bottom: 1px solid #cccc99; background-color: #000; }
+
+.repro-lista ul li:hover { background-color: #cccc99; cursor: pointer; }
+
+.repro-lista ul li:hover span { color: #000; }
+
+.track-active { background-image: url(/avilatv/assets/img/track-play.jpg); background-position: right center; background-repeat: no-repeat; }
+
+.repro-lista ul li:hover.track-active { background-image: url(/avilatv/assets/img/track-play-inv.jpg); }
+
+.tema { display: block; font-family: "hvbold", sans-serif; color: #cccc99; font-size: 15px; line-height: 1em; }
+
+.artista { display: block; color: #6b6b6b; font-size: 11px; }
+
+.repro-autor { font-size: 11px; font-family: "hvbold", sans-serif; }
+
+.repro { position: relative; height: 70px; background: url(/avilatv/assets/img/repro-bg.jpg) left center repeat-x; }
+
+.btn-repro { display: block; width: 42px; height: 42px; background-repeat: no-repeat; float: left; margin: 15px 0 0 3px; }
+
+.btn-repro:hover { cursor: pointer; }
+
+.repro-play, .repro-prev, .repro-next, .repro-download { background-position: top center; }
+
+.repro-play { background-image: url(/avilatv/assets/img/repro-play.png); }
+
+.repro-prev { background-image: url(/avilatv/assets/img/repro-prev.png); }
+
+.repro-next { background-image: url(/avilatv/assets/img/repro-next.png); }
+
+.repro-download { background-image: url(/avilatv/assets/img/repro-download.png); }
+
+.repro-play:hover, .repro-prev:hover, .repro-next:hover, .repro-download:hover, .repro-play:active, .repro-prev:active, .repro-next:active, .repro-download:active { background-position: bottom center; }
+
+.repro-time { display: block; width: 70px; float: left; margin: 30px 0 0 10px; text-align: left; font-family: "hvreg", sans-serif; font-size: 11px; color: #FFF; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+.repro-time:hover { cursor: default; }
+
+.repro-timebar { display: none; width: 140px; height: 3px; background-color: #f00; position: absolute; top: 35px; left: 60px; }
+
+.repro-playing { background-image: url(/avilatv/assets/img/repro-pause.png); }
+
+.sono-podcasts { padding: 0; list-style-type: none; margin: 10px 0; }
+
+.sono-podcasts h3 { margin-bottom: 5px; }
+
+.sono-podcasts li { margin-bottom: 3px; background-color: #ff9c00; padding: 3px; color: #000; cursor: pointer; }
+
+.sono-podcasts li:hover, .sono-podcasts li.repro-active:hover { background-color: #f04e23; }
+
+.sono-podcasts li.repro-active { background-color: #f6eb14; }
+
+.preloader { display: block; float: right; margin-top: 25px; margin-right: 15px; }
+
+.repro-buffer { display: block; position: absolute; top: 50%; right: 10px; height: 5px; width: 5px; border-radius: 5px; background-color: #f00; z-index: 2; }
+
+.repro-bar { display: block; position: absolute; top: 0; left: 0; height: 4px; width: 0%; background-color: #f00; z-index: 2; }
+
+.load-bar { display: block; position: absolute; top: 0; left: 0; height: 4px; width: 0%; background-color: #b50000; z-index: 1; }
+
+/* Agenda */
+body.agenda { background: url("/avilatv/assets/img/fondo_agenda_op.jpg") top center repeat-x #151314; }
+
+#agenda .row { margin-bottom: 15px; margin-top: 10px; }
+
+.agenda-day-lg, .agenda-day-sm { float: left; }
+
+.agenda-day-lg { width: 33.33%; }
+
+.agenda-day-sm { width: 33.33%; }
+
+#agenda h2 { font-size: 21px; }
+
+.agenda-events { list-style-type: none; padding: 0; width: 100%; }
+
+.agenda-events li { min-height: 30px; background-color: #000; margin-bottom: 3px; padding: 5px; color: #FFF; font-family: "hvreg", sans-serif; overflow: auto; }
+
+.agenda-events li:hover { background-color: #6b6b6b; cursor: default; }
+
+.agenda-events li a { text-decoration: none; color: #f00; }
+
+.agenda-time { font-family: "hvbold", sans-serif; font-weight: 600; color: #f6eb14; }
+
+.agenda-title { color: #f04e23; }
+
+/* Contacto */
+body.contacto { background: url("/avilatv/assets/img/fondo_contacto.jpg") top center repeat-x #332d2e; }
+
+/* En la Ola */
+body.ola { background: url("/avilatv/assets/img/fondo_ola_op.jpg") top center repeat-x #332d2e; }
+
+/* Contacto */
+body.promos { background: url("/avilatv/assets/img/fondo_promos.jpg") top center repeat-x #332d2e; }
+
+.promo-row { margin-bottom: 15px; }
+
+/* Contacto */
+body.quienes { background: url("/avilatv/assets/img/fondo_quienes_somos_op.jpg") top center repeat-x #332d2e; }
+
+body.quienes #main .row { background-color: rgba(0, 0, 0, 0.6); }
+
+/* Programación */
+.prog-dias-main, .prog-prog-main { float: left; list-style-type: none; padding: 0; }
+
+.prog-dias-main { margin-right: 10px; }
+
+.prog-dias-main li { width: 166px; height: 35px; background-color: #000; margin-bottom: 3px; }
+
+.prog-dias-main li:hover { background-color: #6b6b6b; }
+
+.prog-dias-main li a { display: block; color: #d6d6d6; text-decoration: none; height: 100%; font-family: "hvreg", sans-serif; padding: 10px; }
+
+.prog-dias { display: block; float: left; }
+
+.prog-fecha { display: block; float: right; }
+
+.prog-prog-main { width: 350px; }
+
+.prog-prog-main li { width: 100%; min-height: 35px; background-color: #ff3300; margin-bottom: 3px; }
+
+.prog-prog-main li:hover { background-color: #ff9c00; }
+
+.prog-prog-main li a { display: block; box-sizing: padding-box; text-decoration: none; height: 100%; font-family: "hvreg", sans-serif; padding: 9px 5px 5px 5px; }
+
+.prog-hora { display: block; float: left; color: #000; margin-right: 10px; }
+
+.prog-hora { display: block; float: left; color: #000; margin-right: 10px; }
+
+.prog-nombre { display: block; padding-left: 50px; color: #0cfef6; }
+
+.prog-titulo { background-color: #000; margin-bottom: 5px; padding: 15px 0 5px 0; text-align: center; }
+
+.prog-content { background-color: #000; padding: 15px; }
+
+.prog-img { text-align: center; }
+
+.prog-texto { color: #9e7a60; margin-top: 15px; }
+
+.prog-links { margin-top: 10px; }
+
+.prog-links a, .prog-links span { display: block; padding: 5px; text-decoration: none; background-color: #f6eb14; color: #000; margin-bottom: 3px; }
+
+.prog-links a:hover { background-color: #9e7a60; }
+
+/* Actualidad */
+#actualidad { padding-top: 10px; }
+
+.act-historico a { display: block; width: 100%; padding: 10px; background-color: #ff9c00; color: #FFF; margin-bottom: 3px; text-decoration: none; }
+
+.act-historico a:hover { background-color: #f04e23; }
+
+.act-historico h2 { font-size: 24px; background-color: #f04e23; color: #FFF; padding: 15px 10px 10px 10px; }
+
+.act-noticia { padding: 0 0 0 10px; }
+
+.head-noticia { overflow: auto; margin-bottom: 10px; }
+
+.head-noticia img { margin-top: 10px; }
+
+.titulo-noticia { display: block; margin-top: 10px; }
+
+.cuerpo-noticia { background-color: #000; color: #a8a5a5; padding: 5px; }
+
+.cuerpo-noticia a { text-decoration: none; color: #ff9c00; }
+
+.cuerpo-noticia a:hover { color: #f04e23; }
+
+.titulo-noticia h2 {text-transform: none;}
+
+/* Descargas */
+.descargas h2 { font-size: 21px; }
+
+.descarga { display: block; border-bottom: 5px solid transparent; }
+
+.descarga:hover { border-bottom-color: #0cfef6; }
+
+/*** RESPONSIVE ***/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { #logo-vector { height: 85px; }
+  #social-sm { top: 50%; right: 10px; }
+  /* nav */
+  .nav li a { font-family: "hvbold", sans-serif; font-weight: 600; font-size: .7em; }
+  .navbar-toggle { width: 60px; height: 60px; }
+  .navbar-toggle .icon-bar { display: block; width: 38px; height: 3px; border-radius: 0; background-color: white; }
+  /* titles */
+  h1 { font-size: 2.3em; }
+  h2 { margin-bottom: 5px; }
+  /* slider */
+  #nt-slider { width: 280px; }
+  /* accesos */
+  .acc-col-1 { margin-bottom: 10px; }
+  .acc-col-1 img { height: 70px; }
+  .acc-col-2 { width: 65%; /*background-color:#F00;*/ }
+  .acc-col-2 h2 { font-size: 1.3em; }
+  #acc-titanes, #acc-ola, #acc-sono { margin-bottom: 0; background-color: transparent; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { /* nav */
+  .nav li a { font-family: "hvbold", sans-serif; font-weight: 600; font-size: .8em; }
+  /* slider */
+  #nt-slider { width: 340px; }
+  /* accesos */
+  .acc-col-1 { margin-bottom: 10px; }
+  .acc-col-1 img { height: 90px; }
+  .acc-col-2 { width: 65%; }
+  .acc-col-2 h2 { font-size: 1.5em; }
+  .head-noticia img { margin-top: 0; }
+  .titulo-noticia { margin-top: 0; } }
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { #nt-slider { width: 420px; }
+  /* accesos */
+  .acc-col-1 img { height: 120px; }
+  .acc-col-2 { width: 60%; }
+  .acc-col-2 h2 { font-size: 2em; } }

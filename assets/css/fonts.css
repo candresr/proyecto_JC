@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'hvreg';
+  src: url("../fonts/hvreg/helveticaneueltpro-roman.eot");
+  src: url("../fonts/hvreg/helveticaneueltpro-roman.eot") format("embedded-opentype"), url("../fonts/hvreg/helveticaneueltpro-roman.woff") format("woff"), url("../fonts/hvreg/helveticaneueltpro-roman.ttf") format("truetype"), url("../fonts/hvreg/helveticaneueltpro-roman.svg#HelveticaNeueLTPro55Roman") format("svg");
+}
+
+@font-face {
+  font-family: 'hvbold';
+  src: url("../fonts/hvbold/helveticaneueltpro-bd.eot");
+  src: url("../fonts/hvbold/helveticaneueltpro-bd.eot") format("embedded-opentype"), url("../fonts/hvbold/helveticaneueltpro-bd.woff") format("woff"), url("../fonts/hvbold/helveticaneueltpro-bd.ttf") format("truetype"), url("../fonts/hvbold/helveticaneueltpro-bd.svg#HelveticaNeueLTPro75Bold") format("svg") bold;
+}
+
+@font-face {
+  font-family: 'hvlight';
+  src: url("../fonts/hvlight/helveticaneueltpro-lt.eot");
+  src: url("../fonts/hvlight/helveticaneueltpro-lt.eot") format("embedded-opentype"), url("../fonts/hvlight/helveticaneueltpro-lt.woff") format("woff"), url("../fonts/hvlight/helveticaneueltpro-lt.ttf") format("truetype"), url("../fonts/hvlight/helveticaneueltpro-lt.svg#HelveticaNeueLTPro45Light") format("svg");
+}
+
+@font-face {
+  font-family: 'hvtn';
+  src: url("../fonts/hvthin/helveticaneueltpro-th.eot");
+  src: url("../fonts/hvthin/helveticaneueltpro-th.eot") format("embedded-opentype"), url("../fonts/hvthin/helveticaneueltpro-th.woff") format("woff"), url("../fonts/hvthin/helveticaneueltpro-th.ttf") format("truetype"), url("../fonts/hvthin/helveticaneueltpro-th.svg#HelveticaNeueLTPro35Thin") format("svg");
+}
+
+@font-face {
+  font-family: 'hvheavy';
+  src: url("../fonts/hvheavy/helveticaneueltpro-hv.eot");
+  src: url("../fonts/hvheavy/helveticaneueltpro-hv.eot") format("embedded-opentype"), url("../fonts/hvheavy/helveticaneueltpro-hv.woff") format("woff"), url("../fonts/hvheavy/helveticaneueltpro-hv.ttf") format("truetype"), url("../fonts/hvheavy/helveticaneueltpro-hv.svg#HelveticaNeueLTPro85Heavy") format("svg");
+}

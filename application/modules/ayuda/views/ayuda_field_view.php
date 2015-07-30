@@ -1,0 +1,1 @@
+<div class="contHelpMod">Campo <span class="negrita"><?=$f_titulo?> </span><br/>Etiqueta del Campo: <span class="negrita"><?=$f_titulo?></span> <br/> Nombre del campo en base de datos: <span class="negrita"><?=$f_name?></span><br/> Tipo de campo: <span class="negrita"><?=$f_campo?></span> <br/><br/> <?=$f_ayuda?> </div>
